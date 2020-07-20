@@ -1,0 +1,32 @@
+body {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  background-color: black;
+  color: blanchedalmond;
+  text-align: center;
+  box-shadow: #454545;
+}
+
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  padding: 16px 0;
+  flex-grow: 1;
+}
+.navbar {
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #888888;
+  color: black;
+  border-radius: 10%;
+}
