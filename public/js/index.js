@@ -9,7 +9,7 @@ form.addEventListener("submit", (e) => {
   const url =
     "https://newsapi.org/v2/top-headlines?country=" +
     value +
-    "&apiKey=7e82bc1b7e8f42f497706b6a3ec67c39";
+    "&apiKey=<Your_API_KEY>";
   fetch(url).then((response) => {
     response.json().then((data) => {
       if (data.error) {
