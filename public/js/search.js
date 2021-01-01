@@ -7,7 +7,7 @@ searchForm.addEventListener("submit", (e) => {
   var url =
     "https://newsapi.org/v2/everything?q=" +
     searchValue +
-    "&apiKey=<Your_API_KEY>";
+    "&apiKey=" +process.env.API_KEY;
   console.log(url);
 
   fetch(url).then((response) => {
